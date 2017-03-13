@@ -12,6 +12,14 @@ LoopBack is a highly-extensible, open-source Node.js framework that enables you 
 $ npm install
 ```
 
+## debug
+```
+Install https://github.com/node-inspector/node-inspector to debug nodeJS application.
+
+node-debug server/server.js
+
+```
+
 ### Run
 
 ```
