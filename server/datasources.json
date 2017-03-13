@@ -1,0 +1,13 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "cassandra": {
+    "host": "127.0.0.1",
+    "port": 9042,
+    "name": "cassandra",
+    "connector": "cassandra",
+    "keyspace": "dev"
+  }
+}

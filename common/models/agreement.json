@@ -1,0 +1,24 @@
+{
+  "name": "Agreement",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "accountInformation": {
+      "type": "string",
+      "id": true
+    },
+    "productDescription": {
+      "type": "string"
+    },
+    "brandName": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
